@@ -1,0 +1,28 @@
+{
+  "name": "gulp-style-npm-files",
+  "version": "1.0.0",
+  "description": "Get style files from your installed npm packages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "Adal Bueno",
+  "license": "MIT",
+  "dependencies": {
+    "caller-id": "0.1.0",
+    "fs": "0.0.1-security"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adalbueno/GulpStyleNpmFiles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adalbueno/GulpStyleNpmFiles/issues"
+  },
+  "devDependencies": {
+    "mocha": "3.2.0",
+    "path": "0.12.7",
+    "should": "11.1.1",
+    "winston": "git://github.com/flatiron/winston#master"
+  }
+}
